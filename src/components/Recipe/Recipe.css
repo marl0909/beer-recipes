@@ -1,0 +1,99 @@
+.recipe-page {
+    display: flex;
+    /*height: 100vh;*/
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.recipe-page__content {
+    display: flex;
+    margin: 0 20% 0;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 20px;
+    height: 800px;
+    background-color: rgba(250, 156, 55, 1);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    overflow-y: scroll;
+}
+
+.recipe-page__description {
+    display: flex;
+    flex-direction: row;
+    height: 160px
+}
+
+.recipe-page__image {
+    display: flex;
+    min-width: 80px;
+    height: 145px;
+    width: 145px;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.recipe-page__image img{
+    height: 100%;
+}
+
+
+.recipe-page__description__text {
+    display: inherit;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%
+}
+
+.recipe-page__beer-characteristic {
+    display: inherit;
+    justify-self: flex-end
+}
+
+.recipe-page__beer-characteristic h3{
+    margin-right: 10px;
+}
+
+.recipe-page__process h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.recipe-page__process h3 {
+    margin-top: 10px;
+}
+
+
+.recipe-page__btn-back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    transform: translateX(-50%);
+    top: 92%;
+    left: 50%;
+    width: 204px;
+    height: 62px;
+    border-radius: 20px;
+    background-color: rgba(226, 23, 31, 1);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.recipe-page__btn-back h2 {
+    color: white;
+}
+
+.recipe-page__content::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background: linear-gradient(180deg, #ffeed0, #090909, #623002, #ffeed0);
+}
+
+.recipe-page__content__contributed {
+    margin-top: 40px;
+    text-align: end;
+}

@@ -1,0 +1,11 @@
+.unVisible {
+    display: none;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    /*padding: 170px;*/
+}
