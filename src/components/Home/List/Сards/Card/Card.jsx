@@ -2,7 +2,7 @@ import {useRecipe, useSelect} from "../../../../../store/store";
 import "./Card.css"
 import {useEffect, useState} from "react";
 import {NavLink} from "react-router-dom";
-import beerDefoult from './../../../../../store/media/pngwing.com.png'
+import beerDefoult from '../../../../../store/media/beer.png'
 
 export const Card = (props) => {
     const [isSelected, setIsSelected] = useState(false);
