@@ -6,10 +6,10 @@
 
 .recipe-page__content {
     display: flex;
-    margin: 0 20% 0;
     flex-direction: column;
     border-radius: 20px;
     padding: 20px;
+    width: 954px;
     height: 800px;
     background-color: rgba(250, 156, 55, 1);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
