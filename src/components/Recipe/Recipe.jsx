@@ -1,11 +1,10 @@
-import {useList, useRecipe} from "../../store/store";
+import {useRecipe} from "../../store/store";
 import {NavLink} from "react-router-dom";
 import './Recipe.css'
 
 export const Recipe = () => {
 
     const recipe = useRecipe(state => state.recipe);
-    const saveRenderedRecipes = useList(state => state.saveRenderedRecipes);
 
 
     return (

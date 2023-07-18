@@ -12,7 +12,7 @@ export const List = (props) => {
 
     useEffect(() => {
         if (inView) {
-            const element = document.getElementById('ggg');
+            const element = document.getElementById('second-card');
             if (element) {
                 element.scrollIntoView();
             }
@@ -25,10 +25,10 @@ export const List = (props) => {
             <div>
                 <Cards cards={props.renderedRecipes.slice(0, 5)}/>
             </div>
-            <div id={'ggg'}>
+            <div id={'second-card'}>
                 <Cards cards={props.renderedRecipes.slice(5, 10)}/>
             </div>
-            <div ref={ref}  className={'www'}>
+            <div ref={ref}>
                 <Cards cards={props.renderedRecipes.slice(10, 15)}/>
             </div>
         </div>

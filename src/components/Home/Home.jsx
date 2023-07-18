@@ -2,7 +2,6 @@ import {useEffect, useState} from "react";
 import {useList, useSelect} from "../../store/store";
 import './Home.css'
 import {List} from "./List/List";
-import {NavLink} from "react-router-dom";
 
 
 export const Home = () => {
@@ -11,8 +10,6 @@ export const Home = () => {
     const {selectedRecipes, clearWasteRecipes, checkSelected, unselectAllRecipes} = useSelect()
     const {list, fetchList, updateRenderedList, saveRenderedRecipes, rendered} = useList();
 
-    console.log('renderedOnStore', rendered);
-    console.log('rendered', renderedRecipes);
 
     useEffect(() => {
         fetchList();
