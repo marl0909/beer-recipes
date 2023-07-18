@@ -1,4 +1,4 @@
-import {useList, useRecipe, useSelect} from "../../../../../store/store";
+import {useRecipe, useSelect} from "../../../../../store/store";
 import "./Card.css"
 import {useEffect, useState} from "react";
 import {NavLink} from "react-router-dom";
